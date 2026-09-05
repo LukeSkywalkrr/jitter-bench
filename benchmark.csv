@@ -1,0 +1,4 @@
+strategy,clients,runs,network_mean_ms,network_variance_ms2,base_backoff_ms,cap_backoff_ms,avg_attempts,avg_completion_ms,attempt_reduction_vs_none_pct,completion_reduction_vs_exponential_pct
+no_backoff,100,100,10,4,5,2000,2422.21,2029.38,0.00,96.82
+capped_exponential,100,100,10,4,5,2000,1868.00,63778.62,22.88,0.00
+full_jitter,100,100,10,4,5,2000,796.24,4910.71,67.13,92.30
